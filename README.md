@@ -10,3 +10,5 @@ Source codes for above models in three separate files: **AR.py**, **RNN.py** and
 Dataset is in the folder of **Data**, which include of daily historical data of six stocks from **02/01/2007** to **26/03/2010**. 
 
 Data are downloaded from National Stock Exchange of India (https://www.nseindia.com)
+
+## Recurrent Neural Network Model (AR-MRNN)
