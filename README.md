@@ -1,2 +1,2 @@
 # Recurrent Neural Network and a Hybrid Model for Prediction of Stock Returns
-A machine learning method for predicting short term stock price
+This piece of work is based on Dr.Rather's paper of Recurrent Neural Network and a Hybrid Model for Prediction of Stock Returns (2015). 
