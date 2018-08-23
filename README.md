@@ -22,3 +22,10 @@ k: The refrence point
 
 ## Hybird Prediction Model (HPM)
 Implemented the _Algorithm 1_ in Rather's paper
+
+## My Utilities Toolkit (myUtilities)
+One function and one class included  
+  
+  
+ _get_return_ function, calculate the daily (fre=1) or weekly returns (fre=7) from daily prices data  
+ _EarlyStoppingByMSE_ calss, set the threshold of training losses for the neural network model to stop training
