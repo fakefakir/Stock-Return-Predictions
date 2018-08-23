@@ -17,8 +17,8 @@ Statsmodels Documentation: https://www.statsmodels.org/stable/index.html
 
 ## Recurrent Neural Network Model (AR-MRNN)
 This modle has two parameters:
-p: The autoregressive order
-k: The refrence point
+p: The autoregressive order__
+k: The refrence point__
 
 ## Hybird Prediction Model (HPM)
 Implemented the _Algorithm 1_ in Rather's paper
