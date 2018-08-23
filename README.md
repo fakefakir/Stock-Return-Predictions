@@ -12,13 +12,13 @@ Dataset is in the folder of **Data**, which include of daily historical data of 
 Data are downloaded from National Stock Exchange of India (https://www.nseindia.com)
 
 ## Autoregressive Model (AR)
-This is implemented using the standard statsmodels package.
+This is implemented using the standard statsmodels package.  
 Statsmodels Documentation: https://www.statsmodels.org/stable/index.html
 
 ## Recurrent Neural Network Model (AR-MRNN)
-This modle has two parameters:
-p: The autoregressive order__
-k: The refrence point__
+This modle has two parameters:  
+p: The autoregressive order  
+k: The refrence point  
 
 ## Hybird Prediction Model (HPM)
 Implemented the _Algorithm 1_ in Rather's paper
