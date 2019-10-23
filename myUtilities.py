@@ -23,8 +23,8 @@ class EarlyStoppingByMSE(Callback):
 
     def on_epoch_end(self, epoch, logs={}):
         current = logs.get(self.monitor)
-        #if current is None:
-        #    warnings.warn("Early stopping requires %s available!" % self.monitor, RuntimeWarning)
+        if current is None:
+            warnings.warn("Early stopping requires %s available!" % self.monitor, RuntimeWarning)
 
         if current < self.value:
             if self.verbose > 0:
