@@ -81,7 +81,7 @@ model.add(SimpleRNN(no_neural, return_sequences=True, input_shape=(None, p), act
 model.add(Dense(1,activation=lambda x: sigmoid(x)-0.5))
 model.compile(loss = 'mean_squared_error', optimizer = 'RMSprop',metrics=['mae','mse'])
 model.summary()
-record=model.fit(x_train, y_train, epochs = no_epoch, batch_size = batch_size, callbacks=[utl.EarlyStoppingByMSE(value=minloss)])
+record=model.fit(x_train, y_train, epochs = no_epoch, batch_size = batch_size, callbacks=[utl.EarlyStoppingByMSE(monitor='mean_squared_error',value=minloss)])
 
 eva=model.evaluate(x_train, y_train, batch_size = batch_size)
 
